@@ -1,9 +1,11 @@
 Universo: A HTML5 canvas compatible graphic engine
 ======================================================
 
+*Currently only JavaScript framework part is open sourced, the native container part will also be open sourced at a proper time later*
+
 ## Introduction:
 
-  Universo is a cross-platform "graphic engine" that provides HTML Canvas compatible API in JavaScript.
+  **[Universo](http://universo.vincentchen.me)** is a cross-platform "graphic engine" that provides HTML Canvas compatible API in JavaScript.
 
   To be straight forward, just imagine a window frame that only contains one canvas element of the modern browser. Which supports all JavaScript APIs (Not only drawing, also keyboard/mouse events) inside a canvas element, but can not render any other DOM element.
 
