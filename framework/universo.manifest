@@ -1,0 +1,57 @@
+{
+    "app_name": "Universo",
+    "app_dir": "C:\\workplace\\universo\\framework\\",
+    "debug_mode": true,
+    "search_path": {
+        
+        "/": [
+            "C: \\workplace\\universo\\framework\\dist\\universo.zip"
+        ],
+        
+        "/app": [
+            "C:\\workplace\\universo\\applications\\cinder\\"
+        ]
+    },
+    "log_scopes": [
+        "VM",
+        "RT",
+        "JS"
+    ],
+    "max_heap": 8
+}
+
+/* 
+// sample configuration for MSW
+{
+    "app_name": "Universo",
+    "app_dir": "C:\\workplace\\universo\\framework\\",
+    "debug_mode": false,
+    "search_path": {
+        "/app" : [ "C:\\workplace\\universo\\applications\\bird\\" ]
+    },
+    "log_scopes": [
+        "VM",
+        "RT",
+        "JS"
+    ],
+    "max_heap": 8
+}
+*/
+
+/*
+// sample configuration for Mac
+{
+    "app_name": "Universo",
+    "app_dir": "/Users/yuanchen/workplace/universo/framework/",
+    "debug_mode": false,
+    "search_path": {
+        "/app" : [ "/Users/yuanchen/workplace/universo/applications/bird/" ]
+    },
+    "log_scopes": [
+        "VM",
+        "RT",
+        "JS"
+    ],
+    "max_heap": 16
+}
+*/
