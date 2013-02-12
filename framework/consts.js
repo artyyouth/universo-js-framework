@@ -178,10 +178,11 @@ const K_TYPE_BOOLEAN   = 'boolean';
 const K_TYPE_NUMBER    = 'number';
 const K_TYPE_FUNCTION  = 'function';
 
+const K_CANVAS_MODE_UNKNOWN = -1;
 const K_CANVAS_MODE_2D = 0;
 const K_CANVAS_MODE_GL = 1;
 
-const K_PLATFORM_COCOA_TOUCH = 1;
+const K_PLATFORM_COCOA_TOUCH = 0;
 
 require("colormap.js");
 // require("glconsts.js");

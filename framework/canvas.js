@@ -59,7 +59,7 @@
     Canvas.prototype._context2d = null;
     Canvas.prototype._glcontext = null;
     Canvas.prototype.texture = null;
-    Canvas.prototype._mode = K_CANVAS_MODE_2D;
+    Canvas.prototype._mode = K_CANVAS_MODE_UNKNOWN;
     
     Canvas.prototype.setMode = function(mode) {
         this._mode = mode;

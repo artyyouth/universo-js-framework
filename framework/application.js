@@ -18,6 +18,7 @@
         FontCache.init();
         var screenCanvas = CanvasBridge.getScreenCanvas();
         // screenCanvas.setMode(K_CANVAS_MODE_GL);
+        // screenCanvas.setMode(K_CANVAS_MODE_2D);
         screenCanvas.width = Universo.getWidth();
         screenCanvas.height = Universo.getHeight();
         log("Screen size: " + screenCanvas.width + " : " + screenCanvas.height);
